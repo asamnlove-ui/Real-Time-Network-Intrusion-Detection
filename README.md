@@ -78,3 +78,4 @@ Responsibilities rotated across data prep, training/evaluation, app/API build, t
 2. `streamlit run app/app.py` → Tab 1: accept defaults → "Classify traffic" → expect **Normal** with high probability; Tab 2: upload `app/sample_inputs.csv` → expect 3 rows classified (Normal / DoS / Normal) + bar chart + downloadable predictions.
 3. Optional: `uvicorn api:app --reload` → open `http://127.0.0.1:8000/docs` → try `/predict`.
 No credentials, keys, or confidential data are included or required.
+# Real-Time-Network-Intrusion-Detection
