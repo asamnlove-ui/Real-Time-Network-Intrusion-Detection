@@ -63,7 +63,7 @@ Proposal targets (macro-F1 ≥ 0.80) were **not met** — expected on this novel
 - Validation: Pydantic schema in `api.py` (ranges for rates 0–1, non-negative counts) + Streamlit widgets with bounds; missing columns / bad CSVs produce safe error messages, never silent wrong predictions.
 - Deployment paths: GitHub (source of truth) → Streamlit Community Cloud (demo link) for reviewers; FastAPI + Docker for SOC integration (shown, not hosted as a live security service for this course).
 
-## 6. Data statement (summary — see `docs/04_Simulated_Data_Statement.md`)
+## 6. Data statement (summary — see `docs/Simulated_Data_Statement.md`)
 
 **No simulated or synthetic data.** Real benchmark data: NSL-KDD `KDDTrain+.txt` / `KDDTest+.txt` (detailed labels, mapped to 5 classes). Historical data — does not represent modern encrypted/cloud traffic. Must not be presented as production performance.
 
